@@ -22,6 +22,7 @@ function App() {
             <Route index element={<HomePage />} />
             <Route path='headphonePage' element={<HeadphonePage />} />
             <Route path='speakers' element={<SpeakersPage />} />
+            <Route path='soundbar' element={<SoundbarPage />} />
             <Route path='luxuryAudio' element={<LuxuryAudioPage />} />
             <Route path='professionalAudio' element={<ProfessionalAudioPage />} />
             <Route path='carAudio' element={<CarAudioPage />} />

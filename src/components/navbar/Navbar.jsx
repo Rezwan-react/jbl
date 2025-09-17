@@ -15,6 +15,7 @@ function Navbar() {
                         <ul className='flex justify-center items-center gap-5 text-[16px] font-medium font-poppins text-[#000]'>
                             <li><Link to="/headphonePage">Headphone</Link></li>
                             <li><Link to="/speakers">Speakers</Link></li>
+                            <li><Link to="/ soundbar"> Soundbar</Link></li>
                             <li><Link to="/luxuryAudio">Luxury Audio</Link></li>
                             <li><Link to="/professionalAudio">Professional Audio</Link></li>
                             <li><Link to="/carAudio">Car Audio</Link></li>
