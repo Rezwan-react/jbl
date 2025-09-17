@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../navbar/Navbar'
 import { Outlet } from 'react-router'
 import Footer from '../footer/Footer'
+import NewsletterSignup from '../newsletterSignup/NewsletterSignup'
 
 function Layout() {
     return (
@@ -9,6 +10,7 @@ function Layout() {
             <div className='container mx-auto'>
                 <Navbar />
                 <Outlet />
+                <NewsletterSignup/>
                 <Footer />
             </div>
         </>

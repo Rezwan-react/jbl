@@ -11,6 +11,7 @@ import AccessoriesPage from './pages/AccessoriesPage'
 import SoundOfCelebrationsPage from './pages/SoundOfCelebrationsPage'
 import ClearanceSalePage from './pages/ClearanceSalePage'
 import HomePage from './pages/HomePage'
+import ProductDetails from './components/ProductDetails/ProductDetails'
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
             <Route path='accessories' element={<AccessoriesPage />} />
             <Route path='soundOfCelebrations' element={<SoundOfCelebrationsPage />} />
             <Route path='clearanceSale' element={<ClearanceSalePage />} />
+            <Route path='productDetails' element={ProductDetails} />
           </Route>
         </Routes>
       </BrowserRouter>

@@ -3,6 +3,7 @@ import HeadphonesBanner from '../components/Headphones/HeadphonesBanner'
 import Breadcrumb from '../components/breadcrumb/Breadcrumb'
 import FilterSidebar from '../components/filterSidebar/FilterSidebar'
 import ProductCard from '../components/productCard/ProductCard'
+import ProductDetails from '../components/ProductDetails/ProductDetails'
 
 function HeadphonePage() {
   return (
@@ -11,11 +12,16 @@ function HeadphonePage() {
       <Breadcrumb />
       <div className='flex gap-2.5'>
         <FilterSidebar />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
+        <div className='flex flex-wrap gap-2.5'>
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+        </div>
       </div>
+      {/* <ProductDetails/> */}
     </>
   )
 }

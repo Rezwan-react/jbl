@@ -1,19 +1,18 @@
 import { FaBalanceScaleRight } from "react-icons/fa";
+import { Link } from "react-router";
 
 const ProductCard = () => {
     return (
         <>
-            <section className="mt-5">
+
+            <section className="mt-5 ">
                 <div className="border p-4 w-72 shadow hover:shadow-lg transition duration-300">
                     {/* Product Image */}
                     <div className="flex justify-center mb-4">
-                        <img
-                            src="/image/01.webp"
-                            alt="JBL Tune Beam 2"
-                            className="h-40 object-contain"
-                        />
+                        <Link to="/ProductDetails">
+                            <img src="/image/01.webp" alt="JBL Tune Beam 2" className="h-40 object-contain" />
+                        </Link>
                     </div>
-
                     {/* Color Options */}
                     <div className="flex space-x-2 justify-center mb-4">
                         <div className="w-4 h-4 bg-white border border-gray-400 rounded-sm"></div>

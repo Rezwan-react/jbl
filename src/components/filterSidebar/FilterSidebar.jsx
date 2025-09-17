@@ -11,7 +11,7 @@ const FilterSidebar = () => {
     };
 
     return (
-        <section className="w-72 bg-[#f9f6f1] p-6 rounded-lg shadow mt-5">
+        <section className="w-72 h-full bg-[#f9f6f1] p-6 rounded-lg shadow mt-5">
 
             {/* COLOUR */}
             <div className="mb-6">
